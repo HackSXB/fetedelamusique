@@ -19,7 +19,19 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development do
+  gem 'pry-rails'
+end
+
 gem 'jquery-rails'
+
+gem 'rails-i18n'
+gem 'haml-rails'
+gem 'mongoid'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'devise'
+gem 'bootstrap-sass'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -35,3 +47,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'unicorn'
