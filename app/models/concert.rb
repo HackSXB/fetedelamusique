@@ -2,7 +2,7 @@ class Concert
   include Mongoid::Document
   include Mongoid::Timestamps
 
-  field :artist_name, type: String
+  field :artist, type: String
   field :genre, type: String
   field :time_start, type: Time
   field :time_end, type: Time

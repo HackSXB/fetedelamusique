@@ -35,6 +35,8 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'bootstrap-datetimepicker-rails'
 gem 'simple_form'
+gem 'rabl'
+gem 'oj'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
