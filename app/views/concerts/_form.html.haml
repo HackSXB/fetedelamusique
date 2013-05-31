@@ -1,8 +1,9 @@
 = simple_form_for(@concert, :html => {:class => 'form-horizontal' }) do |f|
-  = f.input :artist_name
+  = f.input :artist
   = f.input :genre
   = f.input :description
   = f.input :venue
   = f.input :time_start
-  = f.input :time_end, as: :datetime_picker
+  = f.input :time_end
   = f.button :submit, "Envoyer", :class => "btn btn-large btn-primary"
+
