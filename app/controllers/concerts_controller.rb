@@ -6,6 +6,7 @@ class ConcertsController < ApplicationController
   end
 
   def new
+    @concert = Concert.new
   end
 
   def create

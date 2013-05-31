@@ -2,9 +2,18 @@ fr:
   mongoid:
     models:
       user: Utilisateur
+      concert: Concert
     attributes:
       user:
         email: "Email"
         password: "Mot de passe"
         password_confirmation: "Confirmation du mot de passe"
         remember_me: "Se rappeler de moi"
+      concert:
+        artist_name: "Nom de l'artiste"
+        genre: "Genre"
+        time_start: "Heure de début"
+        time_end: "Heure de fin"
+        description: "Description"
+        venue: "Lieu"
+        coordinates: "Coordonnées"
