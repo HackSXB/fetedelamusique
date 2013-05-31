@@ -33,6 +33,10 @@ GEM
     bootstrap-sass (2.3.1.0)
       sass (~> 3.2)
     builder (3.0.4)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.1)
+      climate_control (>= 0.0.3, < 1.0)
     coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -80,6 +84,8 @@ GEM
       moped (~> 1.4)
       origin (~> 1.0)
       tzinfo (~> 0.3.22)
+    mongoid-paperclip (0.0.8)
+      paperclip (>= 2.3.6)
     moped (1.5.0)
     multi_json (1.7.4)
     multipart-post (1.2.0)
@@ -99,6 +105,12 @@ GEM
       omniauth (~> 1.0)
     origin (1.1.0)
     orm_adapter (0.4.0)
+    paperclip (3.4.2)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.0)
+      mime-types
     polyglot (0.3.3)
     pry (0.9.12)
       coderay (~> 1.0.5)
@@ -171,6 +183,7 @@ DEPENDENCIES
   haml-rails
   jquery-rails
   mongoid
+  mongoid-paperclip
   omniauth
   omniauth-facebook
   pry-rails
