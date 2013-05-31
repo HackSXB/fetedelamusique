@@ -1,0 +1,66 @@
+// require_self
+// require_tree .
+
+// $sansFontFamily: ProximaNova, Arial, Helvetica, sans-serif;
+// $serifFontFamily: ProximaNova, Arial, Helvetica, sans-serif;
+// $linkColor: #C84526;
+// $linkColorHover: #C84526;
+
+$bodyBackground: #B5087B;
+$linkColor: #B5087B;
+$linkColorHover: #B5087B;
+$sansFontFamily: 'Open Sans', sans-serif;
+$serifFontFamily: 'Open Sans', sans-serif;
+
+@import "bootstrap";
+
+body {
+  background: image-url('bg-pattern.png') repeat scroll center top #B5087B;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  span {
+    font: 'Open Sans', sans-serif;
+  }
+}
+
+.container {
+  background-color: white;
+}
+
+.container.content {
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 0 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  &.narrow {
+    max-width: 400px;
+    border-radius: 5px;
+  }
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+body.narrow {
+  padding-top: 60px;
+}
+
+#error_explanation, #error_explanation h2 {
+  font-size: 12px;
+  line-height: 14px;
+  color: red;
+}

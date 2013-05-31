@@ -1,0 +1,10 @@
+fr:
+  mongoid:
+    models:
+      user: Utilisateur
+    attributes:
+      user:
+        email: "Email"
+        password: "Mot de passe"
+        password_confirmation: "Confirmation du mot de passe"
+        remember_me: "Se rappeler de moi"

@@ -1,0 +1,4 @@
+%p
+  Welcome #{@email}!
+%p You will have to confirm your account email through the link below before using the Arte Enrichment app:
+%p= link_to 'Confirm my account', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token)
