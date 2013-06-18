@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
 
   layout :layout_by_resource
 
+  respond_to :html
+
 protected
 
   def layout_by_resource

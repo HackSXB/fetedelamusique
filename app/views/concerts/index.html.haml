@@ -1,0 +1,7 @@
+%ul
+  - @concerts.each do |c|
+    %li
+      = "#{c.artist} @ #{c.venue}"
+      %span.date
+        = "#{c.time_start.to_i} → #{c.time_end.to_i}"
+

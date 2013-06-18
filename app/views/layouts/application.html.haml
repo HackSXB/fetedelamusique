@@ -18,7 +18,6 @@
               %span DE LA
               MUSIQUE
         .row
-          .span12
-            = link_to "Je veux ajouter un nouveau concert !", new_concert_path
+          = link_to "Je veux ajouter un nouveau concert !", new_concert_path, class: "new-group"
     = yield
     = javascript_include_tag "application"

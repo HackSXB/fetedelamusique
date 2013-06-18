@@ -9,10 +9,12 @@ class Concert
   field :is_official, type: Boolean
   field :description, type: String
   field :venue, type: String
+  field :reason, type: String
 
   field :coordinates, type: Array
 
   index({ coordinates: "2d" }, { min: -200, max: 200 })
 
   belongs_to :user
+  belongs_to :guide
 end

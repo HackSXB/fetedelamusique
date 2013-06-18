@@ -5,7 +5,7 @@ Fetedelamusique::Application.routes.draw do
   resources :bands
 
   namespace :api do
-    resources :artists, :venues, :concerts
+    resources :concerts, :guides
   end
 
   root :to => 'concerts#index'
